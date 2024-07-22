@@ -1,0 +1,19 @@
+{
+  "name": "tick_tack_to_backend",
+  "version": "1.0.0",
+  "description": "a tick tack to game backend with nodejs and front-end with flutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tahadxbydy/tick_tack_toe_backend.git"
+  },
+  "author": "tahairtaza121",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tahadxbydy/tick_tack_toe_backend/issues"
+  },
+  "homepage": "https://github.com/Tahadxbydy/tick_tack_toe_backend#readme"
+}
