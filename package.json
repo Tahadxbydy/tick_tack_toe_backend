@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "a tick tack to game backend with nodejs and front-end with flutter",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon run src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/Tahadxbydy/tick_tack_toe_backend/issues"
   },
-  "homepage": "https://github.com/Tahadxbydy/tick_tack_toe_backend#readme"
+  "homepage": "https://github.com/Tahadxbydy/tick_tack_toe_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
